@@ -5,8 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 8008,
-    strictPort: true, // don't roll to 8009 etc
+    port: 4000,
+    strictPort: true, // don't roll to next port
   },
   build: {
     minify: 'terser', // MDM crush it real good
