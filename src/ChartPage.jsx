@@ -17,9 +17,9 @@ import { D3Chart } from './D3Chart'
 //
 // See /src/charts comments for example tweaks you might need, they should be very mimimal.
 // -------------------
-import { BarchartHorizontalLoad, BarchartHorizontalDraw } from './charts/BarchartHorizontal'
 import { MultiSeriesLineLoad, MultiSeriesLineDraw } from './charts/MultiSeriesLine'
 import { ZoomableSunburstLoad, ZoomableSunburstDraw } from './charts/ZoomableSunburst'
+import { BarchartHorizontalLoad, BarchartHorizontalDraw } from './charts/BarchartHorizontal'
 import { BollingerChartLoad, BollingerChartDraw } from './charts/BollingerChart'
 import { SankeyChartLoad, SankeyChartDraw } from './charts/SankeyChart'
 import { StackedSteamgraphLoad, StackedSteamgraphDraw } from './charts/StackedSteamgraph'
